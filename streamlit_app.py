@@ -68,6 +68,8 @@ if streamlit.button('Get Fruit Load List'):
 #streamlit.header("The fruit load list contains:")
 #streamlit.dataframe(my_data_rows)
 
+streamlit.stop()
+
 #New section to display a question
 #streamlit.header("Fruityvice Fruit Advice!")
 add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
